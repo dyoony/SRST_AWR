@@ -9,6 +9,8 @@ If you have some questions, please leave comments or send email to me (ydy0415@g
 
 `python train_teacher.py --dataset {dataset} --model {model} --depth {depth} --widen_factor {widen_factor} --num_labels {num_labels} --algo fixmatch --lamb 1 --eta 0.95`
 
+Teacher models will be updated for reproducing the results of this paper, soon.
+
 ## Train Model
 
 `python main.py --dataset cifar10 --model wideresnet --depth 28 --widen_factor 5 --num_labels 4000 --algo srst-awr --perturb_loss kl --teacher fixmatch --tau 1.2 --smooth 0.2 --lamb 20 --gamma 4 --beta 0.5 --lr 0.05 --swa`
