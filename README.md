@@ -1,7 +1,7 @@
 # SRST_AWR
 This repository contains the code for ICCV 2023 paper "Enhancing Adversarial Robustness in Low-Label Regime via Adaptively Weighted Regularizationand Knowledge Distillation" by Dongyoon Yang, Insung Kong and Yongdai Kim.
 
-
+If you have some questions, please leave comments.
 
 # Train
 
